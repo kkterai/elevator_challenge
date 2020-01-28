@@ -1,12 +1,12 @@
 # Elevator Controller Design (WIP)
 
 ## Task
-Create a controller that will tell the elevator which floor to go to
+Create a controller algorithm which tells the user which elevator to use
 
 ## Relationships
 Elevator has_many Floors
 Controller belongs_to Floor
-Note/Question: Can a number suffice?
+Note/Question: Can a number suffice for the f?
 
 ## States of the Elevator
 Bank: 1, 2, or 3 corresponding to a hash of high and low values
