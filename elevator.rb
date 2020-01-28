@@ -1,5 +1,5 @@
 class Elevator
-    attr_accessor: :bank, :going_up, :going_down, :serving_floor, :assigned_floors, :current_location
+    attr_accessor :bank, :going_up, :going_down, :serving_floor, :assigned_floors, :current_location
 
     FLOORS_SERVED = {
         1: {low: 1, high: 33},
