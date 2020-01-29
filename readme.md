@@ -5,20 +5,22 @@ The task: Create a controller algorithm which directs a visitor of a 100-story o
 
 ## Elevator
 #### Attributes
+* Bank: Integer
 * Going Up: Boolean
 * Going Down: Boolean
-* Serving Floor: Floor number
-* Assigned Floors: [] (Sorted, contains next location - if array is empty, it’s idle)
+* Serving Floor: Floor object
+* Assigned Floors: [] (Sorted, contains next location. If array is empty, it’s idle)
 - Note: No more than 10 stops in queue at a time for service quality
 
 ## Floor
 #### Attributes
-* Location: Integer
+* Number: Integer
 
 ## Controller
 #### Attributes
 * Target Floor
 * Current Floor
+* Best Elevator
 
 ## Relationships
 * Elevator has_many Floors
